@@ -46,7 +46,8 @@
   grid-row: 2/3;
 }
 
-thêm border cho các Items .goals,
+/* thêm border cho các Items  */
+.goals,
 .team {
   border-right: 10px solid blue;
 }
@@ -65,10 +66,38 @@ thêm border cho các Items .goals,
   .in-out {
     display: block;
   }
+  .timeline {
+    border-right: 10px solid blue;
+  }
+  .goals,
+  .team {
+    border-bottom: 10px solid blue;
+  }
+  .goals,
+  .team,
+  .timeline,
+  .primary,
+  .scopes {
+    border-right: none;
+  }
 }
 
 @media (max-width: 768px) {
   .digital {
     display: block;
+  }
+  .timeline {
+    border-right: 10px solid blue;
+  }
+  .goals,
+  .team {
+    border-bottom: 10px solid blue;
+  }
+  .goals,
+  .team,
+  .timeline,
+  .primary,
+  .scopes {
+    border-right: none;
   }
 }
